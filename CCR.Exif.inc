@@ -1,4 +1,4 @@
-{.$DEFINE FMX}                //*** remove the dot to assume FMX on Windows ***
+{$DEFINE FMX}                //*** remove the dot to assume FMX on Windows ***
 
 {$IFNDEF MSWINDOWS}           //no VCL outside of Windows
   {$DEFINE FMX}
