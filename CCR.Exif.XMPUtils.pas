@@ -38,7 +38,8 @@ unit CCR.Exif.XMPUtils;
 interface
 
 uses
-  Types, SysUtils, Classes, xmldom, CCR.Exif.BaseUtils, CCR.Exif.TiffUtils;
+  Types, SysUtils, Classes, Xml.xmldom,
+  CCR.Exif.BaseUtils, CCR.Exif.TiffUtils;
 
 type
   EInvalidXMPPacket = class(Exception);
